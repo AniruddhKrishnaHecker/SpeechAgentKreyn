@@ -1,0 +1,17 @@
+[project]
+name = "speechagent"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "accelerate>=0.25.0",
+    "bitsandbytes>=0.41.0",
+    "einops>=0.6.0",
+    "optimum>=1.12.0",
+    "pillow>=9.0.0",
+    "protobuf>=4.24.0",
+    "sentencepiece>=0.1.99",
+    "torch>=2.0.0",
+    "transformers>=4.35.0",
+]
